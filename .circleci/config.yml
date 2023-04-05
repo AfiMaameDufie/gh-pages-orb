@@ -9,7 +9,7 @@ jobs:
       - run: ./build.sh
       - gh-pages/deploy:
           setup-git: true
-          ssh-fingerprints: <fingerprint>
+          ssh-fingerprints: 8a:10:e8:70:04:05:dd:d3:c7:3a:6d:56:86:45:64:70
 workflows:
   Build and Deploy:
     jobs:
